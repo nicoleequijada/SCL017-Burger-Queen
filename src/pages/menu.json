@@ -2,13 +2,111 @@
     "menu": [
     {
         "id":1,
-        "name":"nicole",
-        "price": 700
+        "name":"Mocaccino",
+        "price": 5,
+        "img": "https://i.imgur.com/gy1nw5X.jpg"
     },
     {
-        "id":1,
-        "name":"nicole",
-        "price": 700 
+        "id":2,
+        "name":"Huevos",
+        "price": 4,
+        "img": "https://i.imgur.com/oGoCnOL.png"
+    },
+    {
+        "id":3,
+        "name":"Pancakes",
+        "price": 8,
+        "img": "https://i.imgur.com/qt6zT6F.jpg"
+    },
+    {
+        "id":4,
+        "name":"Té",
+        "price": 3,
+        "img": "https://i.imgur.com/rKsMt1w.png"
+    },
+    {
+        "id":5,
+        "name":"Jugo",
+        "price": 5,
+        "img": "https://i.imgur.com/T76mzsi.jpg"
+    },
+    {
+        "id":6,
+        "name":"Pan de Nuez",
+        "price": 7,
+        "img": "https://i.imgur.com/kpMBbdQ.jpg"
+    },
+    {
+        "id":7,
+        "name":"Café",
+        "price": 7,
+        "img": "https://i.imgur.com/kpMBbdQ.jpg"
+    },
+    {
+        "id":8,
+        "name":"Agua",
+        "price": 4,
+        "img": "https://i.imgur.com/KreTROP.png"
+    },
+    {
+        "id":9,
+        "name":"Croissant",
+        "price": 4,
+        "img": "https://i.imgur.com/Louq08s.png"
+    },
+    {
+        "id":10,
+        "name":"Pie de Manzana",
+        "price": 4,
+        "img": "https://i.imgur.com/kVn5Qx2.jpg"
+    },
+    {
+        "id":10,
+        "name":"Pie de Manzana",
+        "price": 4,
+        "img": "https://i.imgur.com/kVn5Qx2.jpg"
+    },
+    {
+        "id":11,
+        "name":"Chesse Burger",
+        "price": 8,
+        "img": "https://i.imgur.com/Ypp4yi1.jpg"
+    },
+    {
+        "id":12,
+        "name":"Vegan Burger",
+        "price": 8,
+        "img": "https://i.imgur.com/uoJEkWN.jpg"
+    },
+    {
+        "id":13,
+        "name":"Papas fritas",
+        "price": 4,
+        "img": "https://i.imgur.com/MLxszsM.jpg"
+    },
+    {
+        "id":14,
+        "name":"Copa de vino",
+        "price": 5,
+        "img": "https://i.imgur.com/NuNjirq.jpg"
+    },
+    {
+        "id":15,
+        "name":"Shop de cerveza",
+        "price": 5,
+        "img": "https://i.imgur.com/0I3HSrG.jpg"
+    },
+    {
+        "id":16,
+        "name":"Mojito",
+        "price": 5,
+        "img": "https://i.imgur.com/LsL9T0O.png"
+    },
+    {
+        "id":17,
+        "name":"Coca-cola",
+        "price": 4,
+        "img": "https://i.imgur.com/CWG5QGr.jpg"
     }
 
 ]
