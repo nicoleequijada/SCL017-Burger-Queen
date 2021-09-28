@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.body{
+  background-color: #404040;
+  height: 100vh;
+}
+
+.header{
+  background-color: #f4ac0b;
+  height: 10rem;
+}
+
+.btn-warning{
+  background-color: #f4ac0b;
+  width: 20%;
+  height: 10%;
+  margin: 10%;
+  
+}
+.Logo{
+  height: 250%;
+}
