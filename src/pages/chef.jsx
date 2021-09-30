@@ -1,11 +1,10 @@
 import React from "react";
+import Header from "./Header";
 
 function Chef () {
     return(
         <>
-        <header className="header">
-        <img src="" alt="" />
-        </header>
+         <Header show={true}/>
         <body className="body">
         <h1>Prueba de chef</h1>
         </body>

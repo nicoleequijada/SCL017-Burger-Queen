@@ -1,17 +1,18 @@
 
 import { Link } from "react-router-dom";
+import Header from "./Header";
 
 function Home () {
     return (
-        <>
-        <header className="header">
-        <a href="https://imgur.com/Qv0BVg7"><img className="Logo" alt="logo" src="https://i.imgur.com/Qv0BVg7.png" title="source: imgur.com" /></a>
-        </header>
-        <body className="body">
-        <Link className="btn btn-warning" role="button" to="/Menu"> {" "} Mesero </Link>
-        <Link className="btn btn-warning" role="button" to="/Chef"> {" "} Cocina </Link>
-        </body>
-        </>
+        <div>
+            <Header show={false} />
+            <div className="body">
+                <div className="button-home">
+                    <Link className="btn btn-warning" role="button" to="/Menu"> {" "} Mesero </Link>
+                    <Link className="btn btn-warning" role="button" to="/Chef"> {" "} Cocina </Link>
+                </div>
+            </div>
+        </div>
         )
     }
     
