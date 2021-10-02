@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Home from './pages/home.jsx';
-import Chef from './pages/chef.jsx';
-import Menu from './pages/menu.jsx';
+import Home from '../../pages/Home.jsx';
+import Chef from '../../pages/Chef.jsx';
+import Menu from '../../pages/Menu.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import '../App/App.css'
 
 
 
