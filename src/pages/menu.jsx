@@ -37,7 +37,7 @@ function Menu () {
         {MenuOptions}
         </Col>
         
-        <Col sm={2}>
+        <Col sm={3}>
         <TotalSummary />
         </Col>
         </Row>
