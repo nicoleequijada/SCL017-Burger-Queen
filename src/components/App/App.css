@@ -2,27 +2,9 @@
   text-align: center;
 }
 
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-
 .body{
   background-color: #404040;
   height: 100%
-}
-
-.header{
-  background-color: #f4ac0b;
-  height: 10rem;
 }
 
 .btn-warning{
@@ -50,41 +32,13 @@
   font-size: 1.5rem;
   margin: 10px;
 }
-.img-menu{
-  width: 20%;
-}
+
 .cliente-input{
   width: 16%;
   font-size: 1.5rem;
 }
-.menu-col{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 80vh;
-    overflow-y: scroll;
-}
-.card-menu{
-  margin: 10px;
-}
-.card-title{
-  font-size: 1.6rem;
-  text-align: center;
-}
-.card-price{
-  font-size: 1.5rem;
-  text-align: center;
-}
-.button-add{
-  background-color: #f4ac0b;
-  border: 2px solid black;
-  border-radius: 20px;
-  font-size: 1.8rem;
-}
+
+
 .container{
   width: 100%;
-}
-.table{
-  background-color: blanchedalmond;
 }

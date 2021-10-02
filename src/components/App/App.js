@@ -4,6 +4,9 @@ import Chef from '../../pages/Chef.jsx';
 import Menu from '../../pages/Menu.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App/App.css'
+import '../Header/header.css'
+import '../MenuOption/menuOption.css'
+import '../TotalSummary/totalSummary.css'
 
 
 

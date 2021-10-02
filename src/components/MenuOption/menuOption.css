@@ -1,0 +1,26 @@
+
+.menu-col{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh;
+    overflow-y: scroll;
+}
+.card-menu{
+    margin: 10px;
+  }
+  .card-title{
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .card-price{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .button-add{
+    background-color: #f4ac0b;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 1.8rem;
+  }
