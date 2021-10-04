@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Button from "@restart/ui/esm/Button";
 import Data from '../../utils/menu.json'
 import MenuOption from "../MenuOption/MenuOption";
@@ -9,10 +10,12 @@ import { Col } from "react-bootstrap";
 
 
 function MenuCliente () {
-    console.log(Data.Data)
-    const MenuOptions = Data.Data.map((DataActual) => {
+    const [menuItems, setMenuItems] = useState([]);
+    console.log(menuItems)
+    // console.log(Data.Data)
+    const MenuOptions = Data.Data.map((DataOption) => {
         return (
-            <MenuOption data={DataActual}/>
+            <MenuOption data={DataOption}/>
             )
             
         }

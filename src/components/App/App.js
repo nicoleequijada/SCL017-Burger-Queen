@@ -7,6 +7,7 @@ import '../App/App.css'
 import '../Header/header.css'
 import '../MenuOption/menuOption.css'
 import '../TotalSummary/totalSummary.css'
+import '../MenuCliente/menuCliente.css'
 
 
 
