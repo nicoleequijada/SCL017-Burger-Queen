@@ -11,7 +11,7 @@ function MenuOption (props) {
         <Card.Img variant="top" src={props.data.img} alt="coffe"/>
         <Card.Body>
         <Card.Title className="card-title">{props.data.name}</Card.Title>
-        <Card.Text className="card-price">Precio {props.data.price}$</Card.Text>
+        <Card.Text className="card-price">Precio{props.data.price}$</Card.Text>
         <div className="d-grid gap-3">
         <Button className="button-add" variant="primary" onClick={() => props.addOrderProduct(props.data)} size="lg">Agregar</Button>
         </div>

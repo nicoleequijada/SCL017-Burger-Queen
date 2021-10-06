@@ -29,8 +29,10 @@ function TotalSummary (props) {
       </div>
       {SummaryOrderProduct}
 		  <Row>
-		    <Col xs={12}><Button className="total-summary" variant="primary" size="lg">Total a pagar: {total}</Button></Col>
+		    <Col xs={12}><Button className="total-summary" variant="primary" size="lg">Total a pagar: ${total}</Button></Col>
 		  </Row>
+      <Button onClick={()=>{console.log(data)}}>Confirmar pedido</Button>
+    
 		</Container>
 
       
