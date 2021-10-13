@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import OrderProduct from '../OrderProduct/OrderProduct';
+import saveData from '../../firestore'
 
 
 function TotalSummary (props) {
@@ -31,7 +32,7 @@ function TotalSummary (props) {
 		  <Row>
 		    <Col xs={12}><Button className="total-summary" variant="primary" size="lg">Total a pagar: ${total}</Button></Col>
 		  </Row>
-      <Button onClick={()=>{console.log(data)}}>Confirmar pedido</Button>
+      <Button className="button-order" onClick={()=>saveData({data})}>Confirmar pedido</Button>
     
 		</Container>
 
