@@ -2,6 +2,7 @@ import { getFirestore } from "firebase/firestore";
 import app from './firebaseConfig'
 import { collection, addDoc } from "firebase/firestore";
 
+
 const db = getFirestore(app);
 
 async function saveData (data) {

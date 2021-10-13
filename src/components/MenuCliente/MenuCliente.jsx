@@ -33,6 +33,13 @@ class MenuCliente extends Component{
 
 	}
 
+    cleanOrder = () =>{
+        this.setState({
+            orderProducts: []
+
+        })
+    }
+
 
     render(){
         const dataItems = Data;
@@ -66,7 +73,7 @@ class MenuCliente extends Component{
             </Col>
             
             <Col sm={3}>
-            <TotalSummary orderItems={this.state.orderProducts} removeOrderProduct={this.removeOrderProduct} />
+            <TotalSummary orderItems={this.state.orderProducts} removeOrderProduct={this.removeOrderProduct} cleanOrder={this.cleanOrder} />
             </Col>
             </Row>
             
