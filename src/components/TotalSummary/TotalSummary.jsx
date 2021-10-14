@@ -4,8 +4,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import OrderProduct from '../OrderProduct/OrderProduct';
-import saveOrder from '../../firestore'
+import {saveOrder, getOrders} from '../../firestore'
 import cleanOrder from '../MenuCliente/MenuCliente'
+
 
 
 

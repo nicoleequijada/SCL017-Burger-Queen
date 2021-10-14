@@ -1,4 +1,4 @@
-import { Component, useState } from 'react'
+import { Component } from 'react'
 import Button from "@restart/ui/esm/Button";
 import Data from '../../utils/menu.json'
 import MenuOption from "../MenuOption/MenuOption";
