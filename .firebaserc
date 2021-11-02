@@ -1,6 +1,7 @@
 {
   "projects": {
-    "burger-queen": "scl-017-burgen-queen"
+    "burger-queen": "scl-017-burgen-queen",
+    "default": "scl-017-burgen-queen"
   },
   "targets": {}
 }
