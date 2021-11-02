@@ -9,9 +9,6 @@ import '../MenuOption/menuOption.css'
 import '../TotalSummary/totalSummary.css'
 import '../MenuCliente/menuCliente.css'
 
-
-
-
 function App() {
   return (
     <Router> 
